@@ -1,0 +1,20 @@
+{
+	"browserSyncOptions": {
+		"proxy": "https://boardrecoverycafe.local",
+		"notify": false,
+		"browser": [
+			"google chrome"
+		],
+		"reloadDelay": 2500
+	},
+	"browserSyncWatchFiles": [
+		"./dist/"
+	],
+	"paths": {
+		"css": "./",
+		"js": "./",
+		"scss": "./assets/scss",
+		"script": "./assets/js",
+		"node": "./node_modules/"
+	}
+}
